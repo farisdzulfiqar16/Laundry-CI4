@@ -178,7 +178,7 @@ landasan untuk pengembangan lebih lanjut.
 
 ## 10. Informasi Penyusun
 
-**Nama** : …  
+**Nama** : Faris Dzulfiqar , UUT Prasetia
 **Program Studi** : Teknik Informatika  
 **Proyek** : Sistem Informasi Laundry Rizki  
 **Tahun** : 2025
