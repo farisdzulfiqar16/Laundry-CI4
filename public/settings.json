@@ -1,0 +1,34 @@
+{
+  "namaLaundry": "Laundry Rizki",
+  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
+
+  "kontak": {
+    "whatsapp": "6281234567890",
+    "telegram": "@laundry_rizki",
+    "alamat": "Jl. qwert",
+    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=...."
+  },
+
+  "layanan": [
+    {
+      "nama": "Laundry Kiloan",
+      "desc": "Pakaian bersih, wangi, dan rapi.",
+      "harga": "7000/kg"
+    },
+    {
+      "nama": "Setrika",
+      "desc": "Setrika rapi dan licin.",
+      "harga": "4000/kg"
+    },
+    {
+      "nama": "Express",
+      "desc": "Selesai 3–6 jam.",
+      "harga": "Tambah 5000/kg"
+    },
+    {
+      "nama": "Laundry Sepatu",
+      "desc": "Deep cleaning sepatu.",
+      "harga": "20000/pasang"
+    }
+  ]
+}
