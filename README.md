@@ -109,20 +109,21 @@ sehingga perubahan dapat terlihat tanpa *rebuild* atau *compile ulang*.
 Contoh bagian konfigurasi:
 
 {
-    "namaLaundry": "Laundry Rizki",
-    "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
-      "kontak": {
-        "whatsapp": "6281234567890",
-        
-      },
-    "layanan": [
+  "namaLaundry": "Laundry Rizki",
+  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
+
+  "kontak": {
+    "whatsapp": "6281234567890",
+    "telegram": "@laundry_rizki",
+
+  },
+
+  "layanan": [
     {
-    "nama": "Laundry Kiloan",
-    "desc": "Pakaian bersih, wangi, dan rapi.",
-    "harga": "7000/kg"
     }
   ]
 }
+
 
 
 ---
