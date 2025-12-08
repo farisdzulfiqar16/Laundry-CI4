@@ -53,17 +53,16 @@ Pengembangan sistem menggunakan teknologi sebagai berikut:
 Struktur proyek utama:
 
 Laundry-CI4/
-│
-├─ app/ # Direktori aplikasi CI4
-├─ public/
-│ ├─ assets/ # File hasil build ReactJS
-│ ├─ index.html # Entry point React
-│ ├─ settings.json # Berkas konfigurasi yang dapat diedit
-│ ├─ index.php # Bootstrap CI4
-│ └─ .htaccess
-├─ system/
-├─ writable/
-└─ spark
+	app/ # Direktori aplikasi CI4
+	public/
+	assets/ # File hasil build ReactJS
+	index.html # Entry point React
+	settings.json # Berkas konfigurasi yang dapat diedit
+	index.php # Bootstrap CI4
+	.htaccess
+system/
+writable/
+spark
 
 
 ---
@@ -114,10 +113,7 @@ Contoh bagian konfigurasi:
     "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
       "kontak": {
         "whatsapp": "6281234567890",
-        "telegram": "@laundry_rizki",
-        "alamat": "Jl. Contoh Alamat",
-        "googleMapsEmbed": "https://www.google.com/maps/embed?pb=
-        ...."
+        
       },
     "layanan": [
     {
