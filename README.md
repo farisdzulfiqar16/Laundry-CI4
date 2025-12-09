@@ -34,15 +34,12 @@ Pengembangan sistem menggunakan teknologi sebagai berikut:
 - **ReactJS + Vite**  
   Digunakan untuk membangun antarmuka pengguna (UI). Proses *build* menghasilkan
   berkas HTML, CSS, dan JavaScript yang siap dipasang.
-
 - **CodeIgniter 4**  
   Berfungsi sebagai *web server runner*, menangani routing, serta menyediakan
   file konfigurasi yang dapat disunting.
-
 - **settings.json**  
   Menjadi sumber utama data dinamis yang dapat diperbarui tanpa melakukan
   kompilasi ulang pada React.
-
 - **Composer**  
   Digunakan untuk mengelola dependensi di CodeIgniter 4.
 
@@ -52,17 +49,17 @@ Pengembangan sistem menggunakan teknologi sebagai berikut:
 
 Struktur proyek utama:
 
-Laundry-CI4/
-	app/ # Direktori aplikasi CI4
-	public/
-	assets/ # File hasil build ReactJS
-	index.html # Entry point React
-	settings.json # Berkas konfigurasi yang dapat diedit
-	index.php # Bootstrap CI4
-	.htaccess
-system/
-writable/
-spark
+	Laundry-CI4/
+		app/ # Direktori aplikasi CI4
+		public/
+		assets/ # File hasil build ReactJS
+		index.html # Entry point React
+		settings.json # Berkas konfigurasi yang dapat diedit
+		index.php # Bootstrap CI4
+		.htaccess
+	system/
+	writable/
+	spark
 
 
 ---
@@ -108,21 +105,21 @@ sehingga perubahan dapat terlihat tanpa *rebuild* atau *compile ulang*.
 
 Contoh bagian konfigurasi:
 
-{
-  "namaLaundry": "Laundry Rizki",
-  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
-
-  "kontak": {
-    "whatsapp": "6281234567890",
-    "telegram": "@laundry_rizki",
-
-  },
-
-  "layanan": [
-    {
-    }
-  ]
-}
+	{
+	  "namaLaundry": "Laundry Rizki",
+	  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
+	
+	  "kontak": {
+	    "whatsapp": "6281234567890",
+	    "telegram": "@laundry_rizki",
+	
+	  },
+	
+	  "layanan": [
+	    {
+	    }
+	  ]
+	}
 
 
 
@@ -151,13 +148,10 @@ menangani routing internal.
 
 1. **Stand-alone**  
 Website berjalan hanya menggunakan CI4, tanpa perlu React dev server.
-
 2. **Editable**  
 Semua teks, kontak, layanan, dan data penting dapat diubah melalui JSON.
-
 3. **Maintainable**  
 Tim non-developer dapat mengelola konten website tanpa harus melakukan coding.
-
 4. **Dapat dikembangkan untuk HKI**  
 React asli dapat disimpan terpisah sebagai aset pengembangan.
 
@@ -179,13 +173,3 @@ landasan untuk pengembangan lebih lanjut.
 **Program Studi** : Teknik Informatika  
 **Proyek** : Sistem Informasi Laundry Rizki  
 **Tahun** : 2025
-
-
-
-
-
-
-
-
-
-
